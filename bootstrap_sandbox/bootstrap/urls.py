@@ -1,8 +1,8 @@
 from django.urls import path
 
-from .views import home_view
+from .views import typography_view
 
 
 urlpatterns = [
-    path('', home_view)
+    path('basic_typography', typography_view),
 ]
