@@ -1,6 +1,9 @@
 from django.shortcuts import render
 
 
-# Create your views here.
 def typography_view(request):
-    return render(request, 'basic_typography.html')
+    return render(request, 'utilities/basic_typography.html')
+
+
+def text_alignment_display_view(request):
+    return render(request, 'utilities/text_alignment_display.html')
