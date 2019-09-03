@@ -21,7 +21,7 @@ def input_groups_view(request):
     return render(request, 'css_components/input_groups.html')
 
 
-def alerts_and_projress_view(request):
+def alerts_and_progress_view(request):
     return render(request, 'css_components/alerts_progress.html')
 
 
