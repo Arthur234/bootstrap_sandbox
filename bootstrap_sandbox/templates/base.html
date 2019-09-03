@@ -2,101 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
 
-  <title>Bootstrap Sandbox</title>
+    <title>Bootstrap Sandbox</title>
+    <style>
+        {% block style %}{% endblock style %}
+    </style>
 </head>
 
 <body>
-  <header>
-    <h1 class="display-3 text-center my-4">{% block title %}{% endblock title%}</h1>
+<header>
+    <h1 class="display-3 text-center my-4">{% block title %}{% endblock title %}</h1>
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="dropdown">
-            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-              Utilities
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="{% url 'basic_typography' %}">Basic Typography</a>
-              <a class="dropdown-item" href="{% url 'text_alignment_display' %}">Text Alignment & Display</a>
-              <a class="dropdown-item" href="{% url 'floats_and_position' %}">Floats & Position</a>
-              <a class="dropdown-item" href="{% url 'colors_and_background' %}">Colors & Background</a>
-              <a class="dropdown-item" href="{% url 'spacing' %}">Spacing</a>
-              <a class="dropdown-item" href="{% url 'sizing' %}">Sizing</a>
-              <a class="dropdown-item" href="{% url 'breakpoints' %}">Breakpoints</a>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dropdown">
+                    <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        Utilities
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'basic_typography' %}">Basic Typography</a>
+                        <a class="dropdown-item" href="{% url 'text_alignment_display' %}">Text Alignment & Display</a>
+                        <a class="dropdown-item" href="{% url 'floats_and_position' %}">Floats & Position</a>
+                        <a class="dropdown-item" href="{% url 'colors_and_background' %}">Colors & Background</a>
+                        <a class="dropdown-item" href="{% url 'spacing' %}">Spacing</a>
+                        <a class="dropdown-item" href="{% url 'sizing' %}">Sizing</a>
+                        <a class="dropdown-item" href="{% url 'breakpoints' %}">Breakpoints</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="dropdown">
-            <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-              CSS Components
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="css_components/buttons.html">Buttons</a>
-              <a class="dropdown-item" href="css_components/navbar.html">Navbar</a>
-              <a class="dropdown-item" href="css_components/list_groups_badges.html">List Groups & Badges</a>
-              <a class="dropdown-item" href="css_components/forms.html">Forms</a>
-              <a class="dropdown-item" href="css_components/input_groups.html">Input Groups</a>
-              <a class="dropdown-item" href="css_components/alerts_progress.html">Alerts & Progress</a>
-              <a class="dropdown-item" href="css_components/tables_pagination.html">Tables & Pagination</a>
-              <a class="dropdown-item" href="css_components/cards.html">Cards</a>
-              <a class="dropdown-item" href="css_components/media_objects.html">Media Objects</a>
-              <a class="dropdown-item" href="css_components/jumbotron.html">Jumbotron</a>
+            <div class="col-md-3">
+                <div class="dropdown">
+                    <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        CSS Components
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'buttons' %}">Buttons</a>
+                        <a class="dropdown-item" href="{% url 'navbar' %}">Navbar</a>
+                        <a class="dropdown-item" href="{% url 'list_groups_and_badges' %}">List Groups & Badges</a>
+                        <a class="dropdown-item" href="{% url 'forms' %}">Forms</a>
+                        <a class="dropdown-item" href="{% url 'input_groups' %}">Input Groups</a>
+                        <a class="dropdown-item" href="{% url 'alerts_and_progress' %}">Alerts & Progress</a>
+                        <a class="dropdown-item" href="{% url 'tables_and_pagination' %}">Tables & Pagination</a>
+                        <a class="dropdown-item" href="{% url 'cards' %}">Cards</a>
+                        <a class="dropdown-item" href="{% url 'media_objects' %}">Media Objects</a>
+                        <a class="dropdown-item" href="{% url 'jumbotron' %}">Jumbotron</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="dropdown">
-            <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-              Grid & Flexbox
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="grid_and_flexbox/grid_system.html">Grid System</a>
-              <a class="dropdown-item" href="grid_and_flexbox/grid_alignment.html">Grid Alignment</a>
-              <a class="dropdown-item" href="grid_and_flexbox/flexbox.html">Flexbox</a>
-              <a class="dropdown-item" href="grid_and_flexbox/auto_margins_wrapping_order.html">Auto Margins & Wrap</a>
+            <div class="col-md-3">
+                <div class="dropdown">
+                    <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        Grid & Flexbox
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'grid_system' %}">Grid System</a>
+                        <a class="dropdown-item" href="{% url 'grid_alignment' %}">Grid Alignment</a>
+                        <a class="dropdown-item" href="{% url 'flexbox' %}">Flexbox</a>
+                        <a class="dropdown-item" href="{% url 'auto_margins_and_wrap' %}">Auto Margins &
+                            Wrap</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="dropdown">
-            <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-              JavaScript Widgets
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="javascript_widgets/carousel.html">Carousel</a>
-              <a class="dropdown-item" href="javascript_widgets/collapse.html">Collapse</a>
-              <a class="dropdown-item" href="javascript_widgets/tooltips.html">Tooltips</a>
-              <a class="dropdown-item" href="javascript_widgets/popovers.html">Popovers</a>
-              <a class="dropdown-item" href="javascript_widgets/modals.html">Modals</a>
-              <a class="dropdown-item" href="javascript_widgets/scrollspy.html">ScrollSpy</a>
+            <div class="col-md-3">
+                <div class="dropdown">
+                    <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        JavaScript Widgets
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'carousel' %}">Carousel</a>
+                        <a class="dropdown-item" href="{% url 'collapse' %}">Collapse</a>
+                        <a class="dropdown-item" href="{% url 'tooltips' %}">Tooltips</a>
+                        <a class="dropdown-item" href="{% url 'popevers' %}">Popovers</a>
+                        <a class="dropdown-item" href="{% url 'modals' %}">Modals</a>
+                        <a class="dropdown-item" href="{% url 'scrollspy' %}">ScrollSpy</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <hr>
-  </header>
+</header>
 
-  <div class="container">
-      {% block content %}
-      {% endblock content %}
-  </div>
+<div class="container">
+    {% block content %}
+    {% endblock content %}
+</div>
 
-  <div style="margin-top:500px;"></div>
+<div style="margin-top:500px;"></div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
