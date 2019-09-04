@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c904828-385c-4f40-b266-7962582c1761" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bootstrap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/basic_typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_2_basic_typography.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_3_text_alignment_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/text_alignment_display.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_4_floats_position.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/floats_position.html" afterDir="false" />
@@ -138,7 +134,7 @@
       <workItem from="1567493476230" duration="4555000" />
       <workItem from="1567526931950" duration="8766000" />
       <workItem from="1567582698465" duration="344000" />
-      <workItem from="1567583244703" duration="2085000" />
+      <workItem from="1567583244703" duration="6607000" />
     </task>
     <servers />
   </component>
