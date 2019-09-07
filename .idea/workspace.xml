@@ -31,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/5_5_popovers.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/javascript_widgets/popovers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/5_6_modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/javascript_widgets/modals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/5_7_scrollspy.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/javascript_widgets/scrollspy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/grid_and_flexbox/grid_alignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/grid_and_flexbox/grid_alignment.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +138,7 @@
       <workItem from="1567672731468" duration="1269000" />
       <workItem from="1567751327611" duration="10219000" />
       <workItem from="1567823051882" duration="2827000" />
-      <workItem from="1567827474190" duration="178000" />
+      <workItem from="1567827474190" duration="922000" />
     </task>
     <servers />
   </component>
