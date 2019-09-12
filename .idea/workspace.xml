@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c904828-385c-4f40-b266-7962582c1761" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/basic_typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_2_basic_typography.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_3_text_alignment_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/text_alignment_display.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/templates/2_4_floats_position.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_sandbox/templates/utilities/floats_position.html" afterDir="false" />
@@ -137,7 +138,9 @@
       <workItem from="1567672731468" duration="1269000" />
       <workItem from="1567751327611" duration="10219000" />
       <workItem from="1567823051882" duration="2827000" />
-      <workItem from="1567827474190" duration="1175000" />
+      <workItem from="1567827474190" duration="1955000" />
+      <workItem from="1568025177830" duration="77000" />
+      <workItem from="1568210649600" duration="4094000" />
     </task>
     <servers />
   </component>
