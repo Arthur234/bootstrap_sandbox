@@ -123,4 +123,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/idea/
+.idea/
+.bs4boiler/
+*.node_modules/
+package-lock.json
