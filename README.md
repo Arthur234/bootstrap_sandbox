@@ -1,3 +1,1 @@
-# frontend-sandbox
-
-My frontend projects
+# frontend-playground
